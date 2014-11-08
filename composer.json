@@ -1,0 +1,23 @@
+{
+    "name": "olsgreen/queue-encryption",
+    "description": "",
+    "authors": [
+        {
+            "name": "Oliver Green",
+            "email": "green2go@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Olsgreen\\QueueEncryption\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
